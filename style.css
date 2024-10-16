@@ -1,0 +1,39 @@
+#espacio {
+    background-image: url("espacio3.jpg");
+    width: 1350px;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: black;
+}
+.nave {
+    position: absolute;
+    background-image: url("nave1.png");
+    width: 70px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.alien {
+    position: absolute;
+    background-image: url("alien.png");
+    width: 70px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.disparo {
+    position: absolute;
+    background-color: blue;
+    width: 2px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
